@@ -1,1 +1,54 @@
+body, h1, h2, h3, p, div {
+    box-sizing: border-box;
+}
 
+header {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.mainSection {
+    text-align: center;
+    display: flex; /* Use display: flex to make the sections stay in one row */
+    font-family: Arial;
+    overflow: auto; /* Add scrolling if the content overflows the container */
+}
+
+.section {
+    margin: 20px; /* Add some space between the boxes */
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative; /* Add position: relative back to the .section class */
+    flex: 1; /* Allow the boxes to grow and shrink to fit the available space */
+}
+
+.title {
+    background-color: #ffcc00;
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-size: 125%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content {
+    padding-top: 15px; /* Add padding to push down the content within the box */
+}
+
+#chicken{
+
+    background-color: red;
+}
+
+#beef{
+    background-color: blue;
+}
+
+#sushi{
+    background-color: aqua;
+}
