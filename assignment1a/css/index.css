@@ -2,43 +2,42 @@ body, h1, h2, h3, p, div {
     box-sizing: border-box;
 }
 
-header {
-    font-family: arial;
+header{
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align:center;
     margin: 20px;
 }
 
-.mainSection {
-    text-align: center;
-    display: flex; /* Use display: flex to make the sections stay in one row */
+.mainSection
+{
     font-family: Arial;
-    overflow: auto; /* Add scrolling if the content overflows the container */
-}
-
-.section {
-    margin: 20px; /* Add some space between the boxes */
-    border: 1px solid black;
-    background-color: #f2f2f2;
     padding: 20px;
-    position: relative; /* Add position: relative back to the .section class */
-    flex: 1; /* Allow the boxes to grow and shrink to fit the available space */
 }
-
+.section{
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  padding: 20px;
+  margin-right: auto;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+}
 .title {
-    background-color: #ffcc00;
+    position: absolute;
+    top:0px;
+    right:0px;
+    background-color: #ffcc00; /* Set background color for section titles */
     padding: 5px 10px;
     border: 1px solid black;
-    font-size: 125%;
-    position: absolute;
-    top: 0;
-    right: 0;
+    font-size: 125%; /* 25% larger font size than dummy text */
 }
 
-.content {
-    padding-top: 15px; /* Add padding to push down the content within the box */
+.content{
+    margin-top: 10px;
+    padding: 15px;
 }
+
 
 #chicken{
 
