@@ -1,1 +1,113 @@
+body, h1, h2, h3, p, div {
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    margin: 20px;
+}
+
+.mainSection
+{
+    font-family: Arial;
+    padding: 20px;
+}
+.section{
+  background-color: gray;
+  border: 3px solid black;
+  padding: 20px;
+  /* margin-right: auto; */
+  /* margin: 10px; */
+  position: relative;
+  display: inline-block;
+  transition-property: background;
+  transition-duration: 0s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+.section:hover{
+
+    background: maroon;
+}
+.title {
+    position: absolute;
+    top:0px;
+    right:0px;
+    text-align: center;
+    width: 200px;
+    background-color: #ffcc00; /* Set background color for section titles */
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-size: 125%; /* 25% larger font size than dummy text */
+    border-radius: 10px;
+}
+
+
+.footer{
+
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    padding: 5px;
+    background-color: purple;
+    border: 1px solid black;
+    font-size: 125%;
+    border-radius: 10px;
+    width: 75px;
+}
+
+.content{
+    margin-top: 10px;
+    padding: 15px;
+    text-align: left;
+}
+
+
+#chicken{
+
+    background-color:rgb(218, 82, 218);
+}
+
+#beef{
+    background-color: red;
+}
+
+#sushi{
+    background-color: yellow;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .section {
+      width: 33%; 
+    }
+  }
+
+
+@media (min-width: 850px) and (max-width: 1199px) {
+    #block1 , #block2 {
+        width: 50%;
+        float : left;
+  }
+
+  #block3{
+          width: 100%;
+          margin-top: 10px;
+        }
+}
+
+
+@media (max-width: 849px){
+    .section {
+      width: 100%;
+      float: left;
+      margin-top: 10px;
+    }
+}
 
