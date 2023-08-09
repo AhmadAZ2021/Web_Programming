@@ -14,21 +14,21 @@ header{
     font-family: Arial;
     padding: 20px;
 }
-.section{
+.sec{
   background-color: gray;
-  border: 3px solid black;
+  border: 1px solid black;
   padding: 20px;
-  /* margin-right: auto; */
-  /* margin: 10px; */
+  margin-right: auto;
+  margin: 10px;
   position: relative;
   display: inline-block;
-  transition-property: background;
+  /*transition-property:  background  ;*/
   transition-duration: 0s;
   transition-timing-function: linear;
   transition-delay: 0s;
 }
 
-.section:hover{
+.sec:hover{
     cursor: pointer;
     background: maroon;
 }
@@ -37,7 +37,7 @@ header{
     top:0px;
     right:0px;
     text-align: center;
-    width: 200px;
+    width: 300px;
     background-color: #ffcc00; /* Set background color for section titles */
     padding: 5px 10px;
     border: 1px solid black;
@@ -82,32 +82,29 @@ header{
 
 
 
-
-@media (min-width: 1200px) {
-    .section {
-      width: 33%; 
-      float:left;
+@media screen and (min-width: 1200px) {
+    .sec {
+      width: 28%; 
+      
     }
-  }
+  }  
 
 
-@media (min-width: 850px) and (max-width: 1199px) {
-    #block1 , #block2 {
-        width: 50%;
+@media screen and (min-width: 740px) and (max-width: 1199px) {
+    .sec {
+        width: 40%;
         float : left;
+        border: solid 1px yellow;
   }
 
-  #block3{
-          width: 100%;
-          margin-top: 10px;
-        }
 }
 
 
-@media (max-width: 849px){
-    .section {
+@media screen and (max-width: 849px){
+    .sec {
       width: 100%;
       float: left;
       margin-top: 10px;
+      border: solid 1px red;
     }
 }
