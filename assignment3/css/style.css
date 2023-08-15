@@ -18,6 +18,7 @@ header{
   background-color: gray;
   border: 1px solid black;
   padding: 20px;
+  height = 150px;
   margin-right: auto;
   margin: 10px;
   position: relative;
