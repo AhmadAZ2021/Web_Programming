@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ajax Basics</title>
+	 <!-- <script type="text/javascript" language="javascript">
+
+    function RunFile() {
+
+      WshShell = new ActiveXObject("WScript.Shell");
+
+      WshShell.Run("c:/windows/system32/notepad.exe", 1, false);
+
+    }
+
+  </script> -->
+</head>
+<body>
+	<h1 id="title">ActiveXObjects only available on IE</h1>
+
+	<p>
+		<button onclick="RunFile();">
+			Open NotePad
+		</button>
+	</p>
+
+  <div id="content"></div><!--  Place holder  -->
+  <script type="text/javascript" language="javascript">
+
+    function RunFile() {
+
+      WshShell = new ActiveXObject("WScript.Shell");
+
+      WshShell.Run("c:/windows/system32/notepad.exe", 1, false);
+
+    }
+
+  </script>
+</body>
+</html>

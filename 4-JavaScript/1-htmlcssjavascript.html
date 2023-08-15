@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML, CSS and JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+  
+</head>
+<body>
+  <a href="http://ttu.edu.jo" onclick="document.write('Hello');return true;">Click me</a>
+  <p>Player 1: Ali</p>
+  <p ID="ah">Player 2: ahmad</p>
+  <script>
+    const para = document.querySelector('p');
+    const para2 = document.querySelector('#ah');
+
+      para.addEventListener('click', updateName);
+      para2.addEventListener('click', updateName2);
+
+      function updateName() {
+        let name = prompt('Enter a new name');
+        para.textContent = 'Player 1: ' + name;
+      }
+
+      function updateName2() {
+        let name = prompt('Enter a new name');
+        para2.textContent = 'Player2: ' + name;
+      }
+  </script>
+<!-- <script src="js/js.js"></script> -->
+</body>
+</html>

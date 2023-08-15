@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comparison Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/comparingtexts.css">
+	<script type="text/javascript" src="js/comparingtexts.js"></script>
+<body>
+	<h1>Your email</h1>
+	<form>
+		<label for="username">Prefered email address:</label>
+		<input type="email" name="text" placeholder="Your email" autofocus id="email" required /><br>
+		<label for="nationality">Repeat your prefered email address:</label>
+		<input type="email" name="email" placeholder="Repeat your email" id="repeatedemail" required onchange="check()"><br>
+		<input type="submit" name="submit" value="Confirm Emails" onclick="check()">
+	</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nickname Demo</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/nickname.css"> -->
+	<script type="text/javascript" src="js/nickname.js"></script>
+<body>
+	
+	<form>
+		<fieldset>
+			<legend>Form Verification</legend>
+			<label>First Name:<input type="text" name="fname"></label><br>
+			<label>Last Name:<input type="text" name="lname" required="true"></label><br>
+			<label for="yesNick" >Nickname?:</label>
+			<input type="checkbox" name="yesNick" id="yesNick" value="yes" checked="true" onchange="nicknameFunction()"><br>
+			<div id="nick">
+				<label for="nickname">Nickname:</label>
+				<input type="text" name="nickname" id="nickname"><br>
+			</div>
+			<input type="submit" value="Verify">
+		</fieldset>
+		
+	</form>
+</body>
+</html>
