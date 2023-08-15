@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 				var currentItem = itemTemplate.replace(new RegExp("{{name}}", "g"), entry[i].name);
 				currentItem = currentItem.replace(new RegExp("{{description}}", "g"), entry[i].description);
 				newContent += currentItem;
-				console.log(entry[i]);
+				//console.log(entry[i]);
 			  }
   
 			  // Replace the entire body content with the new content
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 				var currentItem = itemTemplate.replace(new RegExp("{{name}}", "g"), entry[i].name);
 				currentItem = currentItem.replace(new RegExp("{{description}}", "g"), entry[i].description);
 				newContent += currentItem;
-				console.log(entry[i]);
+				//console.log(entry[i]);
 			  }
   
 			  // Replace the entire body content with the new content
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 				var currentItem = itemTemplate.replace(new RegExp("{{name}}", "g"), entry[i].name);
 				currentItem = currentItem.replace(new RegExp("{{description}}", "g"), entry[i].description);
 				newContent += currentItem;
-				console.log(entry[i]);
+				//console.log(entry[i]);
 			  }
   
 			  // Replace the entire body content with the new content
