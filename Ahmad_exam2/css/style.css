@@ -1,0 +1,119 @@
+body, h1, h2, h3, p, div {
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    margin: 20px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3m;
+    font-weight: bold;
+}
+
+.mainSection
+{
+    font-family: Arial;
+    padding: 20px;
+}
+.sec{
+  background-color: gray;
+  border: 1px solid black;
+  padding: 20px;
+  height: 100px;
+  margin-right: auto;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  /*transition-property:  background  ;*/
+  transition-duration: 0s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+.sec:hover{
+    cursor: pointer;
+}
+.title {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    text-align: center;
+    
+    background-color: #ffcc00; /* Set background color for section titles */
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-size: 125%; /* 25% larger font size than dummy text */
+    
+}
+
+
+.footer{
+
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    padding: 5px;
+    background-color: purple;
+    border: 1px solid black;
+    font-size: 125%;
+    border-radius: 10px;
+    width: 75px;
+}
+
+.content{
+    margin-top: 10px;
+    padding: 0px 0px 20px 0px ;
+    text-align: left;
+}
+
+
+#chicken{
+
+    background-color:rgb(219, 75, 219);
+}
+
+#beef{
+    background-color: red;
+}
+
+#sushi{
+    background-color: yellow;
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .sec {
+      width: 28%; 
+      
+    }
+  }  
+
+
+@media screen and (min-width: 850px) and (max-width: 1199px) {
+    .sec {
+        width: 40%;
+        float : left;
+        
+  }
+
+    #block3{
+        width: 83%;
+        float: left;
+    }
+
+}
+
+
+@media screen and (max-width: 849px){
+    .sec {
+      width: 100%;
+      float: left;
+      margin-top: 10px;
+}

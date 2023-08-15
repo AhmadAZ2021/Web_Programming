@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Beef Steak",
+        "description": "Tender grilled beef steak served with a side of mashed potatoes and seasonal vegetables."
+    },
+    {
+        "name": "Beef Stew",
+        "description": "Hearty beef stew slow-cooked with carrots, potatoes, and aromatic herbs, served with crusty bread."
+    },
+    {
+        "name": "Beef Burger",
+        "description": "Juicy beef patty topped with lettuce, tomato, onion, and your choice of cheese, served in a soft bun."
+    },
+    {
+        "name": "Beef Tacos",
+        "description": "Flavorful shredded beef wrapped in soft corn tortillas, garnished with salsa, cilantro, and lime."
+    },
+    {
+        "name": "Beef Fajitas",
+        "description": "Sizzling beef strips marinated in spices, served with bell peppers, onions, tortillas, and condiments."
+    },
+    {
+        "name": "Beef Stir-Fry",
+        "description": "Savory beef slices stir-fried with a mix of fresh vegetables in a tangy soy-based sauce."
+    },
+    {
+        "name": "Beef Kebabs",
+        "description": "Skewered pieces of marinated beef grilled to perfection, served with rice and a side salad."
+    },
+    {
+        "name": "Beef Pot Roast",
+        "description": "Slow-roasted beef pot roast with carrots, potatoes, and gravy, a comfort food classic."
+    }
+]

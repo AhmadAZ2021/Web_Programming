@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Sushi Roll Sampler",
+        "description": "An assortment of classic sushi rolls including California Roll, Spicy Tuna Roll, and Avocado Cucumber Roll."
+    },
+    {
+        "name": "Sashimi Platter",
+        "description": "Fresh slices of raw fish including salmon, tuna, and yellowtail, served with wasabi and soy sauce."
+    },
+    {
+        "name": "Dragon Roll",
+        "description": "Eel, cucumber, and avocado roll topped with slices of eel and a sweet unagi sauce."
+    },
+    {
+        "name": "Rainbow Roll",
+        "description": "Colorful sushi roll with a variety of fish on top, creating a visually stunning and delicious combination."
+    },
+    {
+        "name": "Spicy Tuna Roll",
+        "description": "Tuna and spicy mayo rolled in rice and seaweed, a favorite for those who enjoy a kick of heat."
+    },
+    {
+        "name": "Salmon Nigiri",
+        "description": "Fresh salmon slices on compact beds of sushi rice, a simple and delightful choice."
+    },
+    {
+        "name": "Eel Sushi",
+        "description": "Grilled eel atop seasoned rice, glazed with a luscious eel sauce, a sushi delicacy."
+    },
+    {
+        "name": "Vegetable Maki",
+        "description": "Assorted vegetables rolled in rice and seaweed, a perfect choice for vegetarians."
+    }
+]
