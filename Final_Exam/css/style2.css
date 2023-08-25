@@ -1,0 +1,270 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Improved Navigation Bar */
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav a:hover {
+  background-color: #555;
+}
+
+.nav a.active {
+  background-color: #4CAF50;
+}
+
+.login-bar {
+  float: right;
+  padding: 14px 16px;
+  margin-bottom: 5px;
+  background-color: #4CAF50;
+}
+
+/* Improved Search Bar */
+.search-bar {
+  float: left;
+  padding: 10px;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search-bar input[type="submit"] {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Improved Block Elements */
+.block {
+  border: 3px solid black;
+  width: 25%;
+  height: 125px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  float: left;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.block:hover {
+  cursor: pointer;
+  background-color: #656363;
+}
+
+/* Responsive Changes */
+@media screen and (min-width: 799px) and (max-width: 1199px) {
+  .items {
+      width: 800px;
+      margin: 0 auto;
+  }
+
+  .block {
+      width: 35%;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .items {
+      width: 600px;
+      margin: auto;
+  }
+
+  .block {
+      width: 50%;
+  }
+
+  /* Table Overflow on Small Screens */
+  table {
+      width: 100%;
+      overflow-x: auto;
+  }
+}
+
+/* Add your additional styles below this line */
+
+.welcome {
+  text-align: left;
+  color: black;
+}
+
+#loginLink {
+  float: right;
+  padding: 14px 16px;
+  color: white;
+}
+
+.imp {
+  color: red;
+  font-weight: bold;
+}
+
+.mainSection {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.items {
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#book {
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #4CAF50;
+}
+
+th, td {
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ebc0c0;
+}
+
+#hrow {
+  background-color: #4CAF50;
+}
+
+.procname {
+  text-align: center;
+}
+
+#loginbox {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: left;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container input[type="number"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.container button {
+  background-color: #3498db;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #2980b9;
+}
+
+.instructions {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.instructions h2 {
+  margin-bottom: 10px;
+}
+
+.instructions form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.instructions label {
+  font-weight: bold;
+}
+
+.instructions input[type="text"],
+.instructions input[type="password"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.instructions button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.instructions button:hover {
+  background-color: #0056b3;
+}
