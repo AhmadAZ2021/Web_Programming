@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Combining Rules</title>
+	<style type="text/css">
+		*{
+			font-family: "Comic Sans MS",arial;
+		}
+		/*div.myclass{
+			color: blue;
+		}*/
+		div span.spanclass{
+			color: green;
+		}
+		.myclass{
+			font-size: 1.5em;
+    }
+    .spanclass{
+      color:red;
+    }
+	</style>
+</head>
+<body>
+<div class="myclass">
+	<div>Div inside div with a class myclass</div>
+	This is a div <span class="spanclass">This is a span</span>
+</div>
+<div>
+	Another div 
+	<p>
+		<span>
+			Span inside
+		</span>
+	</p>
+</div>
+</body>
+</html>

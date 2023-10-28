@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <style type="text/css">
+    /* *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    } */
+		p, .whatever{
+			font-size: 30px;
+		}
+		#uniqueID{
+			color: blue;
+			background: yellow;
+		}
+		.completed{
+			color:#FF0000;
+			background: gray;
+		}
+		div[class$='my']{
+			color: blue;
+			font-size: 3em;
+		}
+    div>span{
+      color: black;
+    }
+    div span{
+      color: black;
+    }
+	</style>
+</head>
+<body>
+	<p>This paragraph is written in large font size</p>
+	<div class="completed anotherclass thirdclass">
+    This is a div content.<br>It should be red.
+    <p><span class="spanclass">This is span class</span></p>
+	</div>
+	<div id="uniqueID" class="mypoint">
+		Another div with some content<br>It should be red.
+	</div>
+  <div class="hismy">THis is another div</div>
+  <div class="whatever">THis is another div</div>
+</body>
+</html>
